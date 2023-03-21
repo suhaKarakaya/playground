@@ -13,6 +13,11 @@
 		020BCE1A29C9C45600175E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020BCE1829C9C45600175E03 /* Main.storyboard */; };
 		020BCE1C29C9C45700175E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020BCE1B29C9C45700175E03 /* Assets.xcassets */; };
 		020BCE1F29C9C45700175E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020BCE1D29C9C45700175E03 /* LaunchScreen.storyboard */; };
+		020BCE2829C9C58000175E03 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 020BCE2729C9C58000175E03 /* Alamofire */; };
+		020BCE2A29C9CA7F00175E03 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BCE2929C9CA7F00175E03 /* ResponseModel.swift */; };
+		020BCE2D29C9CF3600175E03 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 020BCE2C29C9CF3600175E03 /* ObjectMapper */; };
+		020BCE2F29C9D6F400175E03 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BCE2E29C9D6F400175E03 /* DetailViewController.swift */; };
+		020BCE3129C9DB1E00175E03 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BCE3029C9DB1E00175E03 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,9 @@
 		020BCE1B29C9C45700175E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		020BCE1E29C9C45700175E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		020BCE2029C9C45700175E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020BCE2929C9CA7F00175E03 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		020BCE2E29C9D6F400175E03 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		020BCE3029C9DB1E00175E03 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020BCE2D29C9CF3600175E03 /* ObjectMapper in Frameworks */,
+				020BCE2829C9C58000175E03 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +73,9 @@
 				020BCE1B29C9C45700175E03 /* Assets.xcassets */,
 				020BCE1D29C9C45700175E03 /* LaunchScreen.storyboard */,
 				020BCE2029C9C45700175E03 /* Info.plist */,
+				020BCE2929C9CA7F00175E03 /* ResponseModel.swift */,
+				020BCE2E29C9D6F400175E03 /* DetailViewController.swift */,
+				020BCE3029C9DB1E00175E03 /* MyTableViewCell.swift */,
 			);
 			path = semanur;
 			sourceTree = "<group>";
@@ -83,6 +96,10 @@
 			dependencies = (
 			);
 			name = semanur;
+			packageProductDependencies = (
+				020BCE2729C9C58000175E03 /* Alamofire */,
+				020BCE2C29C9CF3600175E03 /* ObjectMapper */,
+			);
 			productName = semanur;
 			productReference = 020BCE0F29C9C45600175E03 /* semanur.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,10 @@
 				Base,
 			);
 			mainGroup = 020BCE0629C9C45600175E03;
+			packageReferences = (
+				020BCE2629C9C58000175E03 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				020BCE2B29C9CF3600175E03 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+			);
 			productRefGroup = 020BCE1029C9C45600175E03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,7 +161,10 @@
 			files = (
 				020BCE1729C9C45600175E03 /* ViewController.swift in Sources */,
 				020BCE1329C9C45600175E03 /* AppDelegate.swift in Sources */,
+				020BCE2F29C9D6F400175E03 /* DetailViewController.swift in Sources */,
+				020BCE2A29C9CA7F00175E03 /* ResponseModel.swift in Sources */,
 				020BCE1529C9C45600175E03 /* SceneDelegate.swift in Sources */,
+				020BCE3129C9DB1E00175E03 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +380,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		020BCE2629C9C58000175E03 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		020BCE2B29C9CF3600175E03 /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		020BCE2729C9C58000175E03 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 020BCE2629C9C58000175E03 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		020BCE2C29C9CF3600175E03 /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 020BCE2B29C9CF3600175E03 /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 020BCE0729C9C45600175E03 /* Project object */;
 }
