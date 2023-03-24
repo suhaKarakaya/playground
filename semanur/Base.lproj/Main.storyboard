@@ -133,7 +133,7 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="g1u-WA-jHL" id="htQ-ea-bkm"/>
-                        <segue destination="v0V-EF-uVd" kind="show" identifier="sg_toDetail" id="7Ox-HW-NlV"/>
+                        <segue destination="v0V-EF-uVd" kind="presentation" identifier="sg_toDetail" modalPresentationStyle="fullScreen" id="7Ox-HW-NlV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -145,11 +145,11 @@
             <objects>
                 <viewController id="v0V-EF-uVd" customClass="DetailViewController" customModule="semanur" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V8C-A2-eDw">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64I-Wo-i9l">
-                                <rect key="frame" x="167" y="376.66666666666669" width="59" height="30"/>
+                                <rect key="frame" x="167" y="411" width="59" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

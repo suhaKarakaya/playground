@@ -18,6 +18,8 @@
 		020BCE2D29C9CF3600175E03 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 020BCE2C29C9CF3600175E03 /* ObjectMapper */; };
 		020BCE2F29C9D6F400175E03 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BCE2E29C9D6F400175E03 /* DetailViewController.swift */; };
 		020BCE3129C9DB1E00175E03 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BCE3029C9DB1E00175E03 /* MyTableViewCell.swift */; };
+		0269161129CD8BE000D41740 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0269161029CD8BE000D41740 /* ApiHandler.swift */; };
+		0269161329CD91E400D41740 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0269161229CD91E400D41740 /* ServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		020BCE2929C9CA7F00175E03 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
 		020BCE2E29C9D6F400175E03 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		020BCE3029C9DB1E00175E03 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		0269161029CD8BE000D41740 /* ApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		0269161229CD91E400D41740 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				020BCE2929C9CA7F00175E03 /* ResponseModel.swift */,
 				020BCE2E29C9D6F400175E03 /* DetailViewController.swift */,
 				020BCE3029C9DB1E00175E03 /* MyTableViewCell.swift */,
+				0269161029CD8BE000D41740 /* ApiHandler.swift */,
+				0269161229CD91E400D41740 /* ServiceManager.swift */,
 			);
 			path = semanur;
 			sourceTree = "<group>";
@@ -162,7 +168,9 @@
 				020BCE1729C9C45600175E03 /* ViewController.swift in Sources */,
 				020BCE1329C9C45600175E03 /* AppDelegate.swift in Sources */,
 				020BCE2F29C9D6F400175E03 /* DetailViewController.swift in Sources */,
+				0269161329CD91E400D41740 /* ServiceManager.swift in Sources */,
 				020BCE2A29C9CA7F00175E03 /* ResponseModel.swift in Sources */,
+				0269161129CD8BE000D41740 /* ApiHandler.swift in Sources */,
 				020BCE1529C9C45600175E03 /* SceneDelegate.swift in Sources */,
 				020BCE3129C9DB1E00175E03 /* MyTableViewCell.swift in Sources */,
 			);
