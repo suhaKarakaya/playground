@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         tableView.delegate = self
         tableView.dataSource = self
-        
+//        deneme
         
         //        AF.request("https://ezanvakti.herokuapp.com/vakitler/9541", method: .get, encoding: URLEncoding.default, headers: nil, interceptor: nil).response { (responseData) in
         //
